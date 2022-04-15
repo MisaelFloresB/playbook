@@ -63,11 +63,13 @@ console.log(explorers)
 explorers.forEach(studentsName => console.log(studentsName.name))
 explorers.forEach(studentsStack => console.log(studentsStack.stack))
 
+console.log("map")
 // Se mapea la lista con map y se le indica que acomode una nueva lista unicamente 
 //con lo que tenga el elemento stack de cada explorer
 const newListStacks = explorers.map(newStack => newStack.stack)
 console.log(newListStacks)
 
+console.log("filter js")
 const filterList = explorers.filter(jsList => jsList.stack.includes("js"))
 console.log(filterList)
 
