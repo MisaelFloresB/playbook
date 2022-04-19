@@ -9,6 +9,7 @@ export default class Pokemon {
       this.attacks = []
     }
   
+    
     get getAttacks(){
       return this.attacks
     }
